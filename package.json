@@ -21,7 +21,7 @@
       "prerelease": "npm run test && npm run typedoc && git add -u",
       "postbump": "echo Version: v$npm_package_version",
       "postchangelog": "replace \"https://github.com/SkeLLLa/\" \"https://gitlab.com/m03geek/\" CHANGELOG.md",
-      "posttag": "git push --follow-tags origin $npm_package_config_releaseBranch"
+      "posttag": "git push --follow-tags"
     }
   },
   "scripts": {
